@@ -15,3 +15,10 @@ function print(n) {
 }
 
 print(1);
+
+// dry run  
+// print(1) => print(2) => print(3) => print(4) => print(5) => print(6) => print(7) => print(8) => print(9) => print(10) => print(11)
+
+// so the final result will be 1 2 3 4 5 6 7 8 9 10
+
+// This is the optimized solution with O(n) time complexity and O(n) space complexity due to the recursive call stack.    

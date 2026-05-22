@@ -17,3 +17,10 @@ function print(n) {
 let a = 10;
 
 print(a);
+
+// dry run  
+// print(10) => print(9) => print(8) => print(7) => print(6) => print(5) => print(4) => print(3) => print(2) => print(1) => print(0)
+
+// so the final result will be 10 9 8 7 6 5 4 3 2 1
+
+// This is the optimized solution with O(n) time complexity and O(n) space complexity due to the recursive call stack.

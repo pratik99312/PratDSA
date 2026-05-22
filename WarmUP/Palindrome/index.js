@@ -23,3 +23,12 @@ function isPalindrome(x) {
 }
 
 console.log(isPalindrome(nx))
+
+
+// dry run
+// nx = -121, x = -121
+// x < 0, return "Number is not Palindrome"
+
+// so the final result will be Number is not Palindrome   
+
+// This is the optimized solution with O(1) space complexity and O(n) time complexity.                              

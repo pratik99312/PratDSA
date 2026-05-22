@@ -33,3 +33,14 @@ const n = 3;
 merge(nums1, m, nums2, n);
 
 console.log("Merged Array:", nums1);
+
+// dry run
+// nums1Copy = [1, 2, 3], p1 = 0, p2 = 0
+// i = 0, nums1Copy[p1] = 1, nums2[p2] = 2, nums1[0] = 1, p1 = 1
+// i = 1, nums1Copy[p1] = 2, nums2[p2] = 2, nums1[1] = 2, p1 = 2
+// i = 2, nums1Copy[p1] = 3, nums2[p2] = 2, nums1[2] = 2, p2 = 1
+// i = 3, nums1Copy[p1] = 3, nums2[p2] = 5, nums1[3] = 3, p1 = 3
+// i = 4, p1 >= m, nums1                [4] = 5, p2 = 2
+// i = 5, p1 >= m, nums1                [5] = 6, p2 = 3
+
+// so the final result will be Merged Array: [1, 2, 2, 3, 5, 6]                                                         

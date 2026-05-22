@@ -32,3 +32,14 @@ function reverseInteger(x) {
 const result = reverseInteger(1234);
 
 console.log("Reverse of Integer is::", result);
+
+
+// dry run
+// x = -1234, xcopy = -1234, rev = "0"
+// x > 0 is false, so we skip the while loop
+// limit = 2^31 = 2147483648
+// rev = "0" is not greater than limit and not less than -limit, so we skip the if condition
+// xcopy < 0 is true, so we return -rev which is 0        
+
+// so the final result will be Reverse of Integer is:: 0
+// This is the optimized solution with O(1) space complexity and O(n) time complexity.    
