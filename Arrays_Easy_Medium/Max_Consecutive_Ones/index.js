@@ -36,3 +36,4 @@ console.log("Maximum Consecutive Ones:", result);
 // so the final result will be Maximum Consecutive Ones: 3   
 
 // This is the optimized solution with O(1) space complexity and O(n) time complexity.
+
