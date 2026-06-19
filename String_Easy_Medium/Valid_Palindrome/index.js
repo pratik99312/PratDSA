@@ -1,0 +1,30 @@
+// Write a program to find Valid Palindrome No 
+
+
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+var isPalindrome = function(s) {
+    s = s.toLowerCase();
+    let filteredString = "";
+    let rev = "";
+    for(let i  = 0;i <s.length;i++){
+        if(s[i].match(/[a-z0-9]/i)){
+            filteredString = filteredString + s[i]
+            rev = s[i] + rev
+        }
+    }
+//    let rev = filteredString.split("").reverse().join("");
+   
+   return filteredString == rev
+};
+
+// const s = "A man, a plan, a canal: Panama";
+
+const  s = "race a car";
+
+console.log(isPalindrome(s))
+
+// T = O(n)
+// S = O(n)
