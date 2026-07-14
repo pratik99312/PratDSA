@@ -6,7 +6,7 @@
 // Note: The input integer may be either positive or negative
 
 let x = -1234;
-le
+
 let xcopy = x;
 function reverseInteger(x) {
   let rev = "0";

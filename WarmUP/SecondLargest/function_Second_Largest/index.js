@@ -30,3 +30,27 @@ console.log("Second Largest Array is :: ", result);
 // so the final result will be Second Largest Array is :: 10
 
 // This is the optimized solution with O(1) space complexity and O(n) time complexity.
+
+
+// let arr = [4, 9, 0, 2, 8, 7, 14, 15, 13,];
+
+// function getSecondLargest(arr) {
+//     let firstLargest = -Infinity
+//     let secondLargest = -Infinity
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > firstLargest) {
+//             secondLargest = firstLargest
+//             firstLargest = arr[i]
+//         } else if (arr[i] > secondLargest && arr[i] !== firstLargest) {
+//             secondLargest = arr[i]
+//         }
+//     }
+//     return secondLargest;
+
+// }
+
+// const result = getSecondLargest(arr);
+
+// console.log("Second Largest no is::", result)
+
